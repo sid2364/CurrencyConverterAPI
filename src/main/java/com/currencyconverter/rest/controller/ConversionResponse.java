@@ -24,7 +24,6 @@ public class ConversionResponse implements Serializable {
     private Long endTime;
     public String errorMessage;
 
-
     private static String getTime(){
         return new SimpleDateFormat("yyyyMMdd HH:mm:ss").format(Calendar.getInstance().getTime());
     }

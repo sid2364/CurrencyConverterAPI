@@ -23,13 +23,12 @@ public class ConversionController {
     @GetMapping(produces = APPLICATION_JSON_VALUE, consumes = APPLICATION_JSON_VALUE)
     public ConversionResponse convert(Double notional, String fromCcy, String toCcy) {
         /* Entry point for the /convert endpoint */
-
         long startTime = System.nanoTime();
 
         ConversionRequest conversionRequest = new ConversionRequest();
         conversionRequest
-                .setFromCcy(fromCcy.toUpperCase().substring(0, 3))
-                .setToCcy(toCcy.toUpperCase().substring(0, 3))
+                .setFromCcy(fromCcy.toUpperCase())
+                .setToCcy(toCcy.toUpperCase())
                 .setNotional(notional)
                 .setStartTime(startTime);
 
@@ -43,7 +42,7 @@ public class ConversionController {
 
     @RequestMapping("/**")
     public String defaultResponse(){
-        return "Usage: <endpoint>/convert?notional=<Double>&fromCcy=<String>&toCcy=<String>";
+        return "Usage: /convert?notional=<Double>&fromCcy=<String>&toCcy=<String>";
     }
 
 }

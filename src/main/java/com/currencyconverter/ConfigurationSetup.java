@@ -1,8 +1,8 @@
-package com.currency;
+package com.currencyconverter;
 
-import com.currency.helpers.ServiceUtil;
-import com.currency.helpers.BridgeUtil;
-import com.currency.helpers.FXRateDataRetrieverUtil;
+import com.currencyconverter.helpers.ServiceUtil;
+import com.currencyconverter.helpers.BridgeUtil;
+import com.currencyconverter.helpers.FXRateDataRetrieverUtil;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;

@@ -1,6 +1,6 @@
-package com.currency.rest.controller;
+package com.currencyconverter.rest.controller;
 
-import com.currency.helpers.ServiceUtil;
+import com.currencyconverter.helpers.ServiceUtil;
 import lombok.AllArgsConstructor;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -42,7 +42,7 @@ public class ConversionController {
 
     @RequestMapping("/**")
     public String defaultResponse(){
-        return "Usage: /convert?notional=<Double>&fromCcy=<String>&toCcy=<String>";
+        return "Usage: /convert?notional=[Double]&fromCcy=[String]&toCcy=[String]";
     }
 
 }

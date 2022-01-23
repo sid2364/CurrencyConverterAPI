@@ -1,5 +1,5 @@
 
-package com.currency.helpers;
+package com.currencyconverter.helpers;
 
 import java.util.HashMap;
 import java.util.Map;

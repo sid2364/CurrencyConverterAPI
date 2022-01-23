@@ -1,4 +1,4 @@
-package com.currency.rest.controller;
+package com.currencyconverter.rest.controller;
 
 public class ConversionCalculation {
     /* Can also use builder pattern to create instances instead of using 'new' */

@@ -1,4 +1,4 @@
-package com.currency.helpers;
+package com.currencyconverter.helpers;
 
 import java.net.URI;
 

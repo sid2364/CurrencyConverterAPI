@@ -1,7 +1,7 @@
-package com.currency.helpers;
+package com.currencyconverter.helpers;
 
-import com.currency.rest.controller.ConversionCalculation;
-import com.currency.rest.controller.ConversionRequest;
+import com.currencyconverter.rest.controller.ConversionCalculation;
+import com.currencyconverter.rest.controller.ConversionRequest;
 import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

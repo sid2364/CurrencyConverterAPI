@@ -1,4 +1,4 @@
-package com.currency.rest.controller;
+package com.currencyconverter.rest.controller;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

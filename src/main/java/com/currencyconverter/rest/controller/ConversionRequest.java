@@ -1,4 +1,4 @@
-package com.currency.rest.controller;
+package com.currencyconverter.rest.controller;
 
 public class ConversionRequest {
     private Double notional;
